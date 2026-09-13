@@ -20,6 +20,7 @@ This project combines:
 
 ### 🔄 Project Workflow
 
+```text
 Credit Card Transaction Dataset
             ↓
      Data Preprocessing
@@ -39,6 +40,7 @@ Credit Card Transaction Dataset
       Risk Classification
             ↓
      Streamlit Dashboard
+```
 
 ---
 
@@ -84,8 +86,10 @@ Steps include:
 
 The target variable is:
 
+```text
 0 → Normal Transaction
 1 → Fraudulent Transaction
+```
 
 ---
 
@@ -95,7 +99,9 @@ K-Means is an **unsupervised machine learning algorithm** used to group transact
 
 In this project, K-Means is used with:
 
+```text
 Number of Clusters = 3
+```
 
 For every transaction, the model generates:
 
@@ -116,6 +122,7 @@ Random Forest is used as the main supervised classification algorithm.
 
 The Random Forest model learns from:
 
+```text
 Original Features
        +
 K-Means Cluster
@@ -125,12 +132,15 @@ Cluster Distance
 Random Forest
        ↓
 Fraud / Normal
+```
 
 The model uses:
 
+```text
 n_estimators = 100
 class_weight = balanced
 random_state = 42
+```
 
 Using `class_weight="balanced"` helps the model handle the severe class imbalance between normal and fraudulent transactions.
 
@@ -150,8 +160,10 @@ The project categorizes the risk level as:
 
 Example:
 
+```text
 Fraud Probability = 91.5%
 Risk Level = High Risk
+```
 
 ---
 
@@ -171,12 +183,14 @@ The project evaluates the Random Forest model using:
 
 Evaluation results and visualizations are stored in:
 
+```text
 evaluation/
 ├── confusion_matrix.png
 ├── roc_curve.png
 ├── precision_recall_curve.png
 ├── classification_report.csv
 └── evaluation_summary.csv
+```
 
 ---
 
@@ -248,6 +262,7 @@ Provides information about:
 
 ## 📂 Project Structure
 
+```text
 Credit Card Fraud Detection/
 │
 ├── data/
@@ -282,6 +297,7 @@ Credit Card Fraud Detection/
 │
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
@@ -320,7 +336,7 @@ Credit Card Fraud Detection/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Prasanthi376/credit-card-fraud-detection.git
+git clone https://github.com/your-username/credit-card-fraud-detection.git
 ```
 
 Navigate into the project:
@@ -518,15 +534,15 @@ Through this project, I gained practical experience in:
 
 ## 👩‍💻 Author
 
-**Sai Prasanthi**
+**N.Sai Prasanthi**
 
 B.Tech – Computer Science and Engineering
 
 ### Skills Demonstrated
 
 ```text
-Python | Machine Learning | Pandas | NumPy |
-Scikit-learn | Streamlit | Git | GitHub
+Python | SQL | Machine Learning | Pandas | NumPy |
+Scikit-learn | Streamlit | Power BI | Git | GitHub
 ```
 
 ---
