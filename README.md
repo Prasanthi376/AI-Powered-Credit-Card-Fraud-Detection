@@ -542,7 +542,7 @@ B.Tech – Computer Science and Engineering
 
 ```text
 Python | SQL | Machine Learning | Pandas | NumPy |
-Scikit-learn | Streamlit | Power BI | Git | GitHub
+Scikit-learn | Streamlit | Git | GitHub
 ```
 
 ---
