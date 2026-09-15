@@ -541,7 +541,7 @@ B.Tech – Computer Science and Engineering
 ### Skills Demonstrated
 
 ```text
-Python | SQL | Machine Learning | Pandas | NumPy |
+Python | Machine Learning | Pandas | NumPy |
 Scikit-learn | Streamlit | Git | GitHub
 ```
 
